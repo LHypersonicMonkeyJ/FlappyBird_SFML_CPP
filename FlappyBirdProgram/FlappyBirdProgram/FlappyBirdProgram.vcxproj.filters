@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetManager.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{41795af6-0f9f-4f71-9e10-b0ca9415d6ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

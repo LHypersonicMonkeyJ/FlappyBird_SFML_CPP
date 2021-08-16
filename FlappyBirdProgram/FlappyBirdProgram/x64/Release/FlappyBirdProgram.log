@@ -1,0 +1,27 @@
+﻿  AssetManager.cpp
+  Game.cpp
+  InputManager.cpp
+e:\project\03_flappybirdsfml_cpp\flappybirdprogram\flappybirdprogram\inputmanager.cpp(10): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+e:\project\03_flappybirdsfml_cpp\flappybirdprogram\flappybirdprogram\inputmanager.cpp(9): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  main.cpp
+  StateMachine.cpp
+  Generating code
+  All 336 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  FlappyBirdProgram.vcxproj -> E:\Project\03_FlappyBirdSFML_cpp\FlappyBirdProgram\x64\Release\FlappyBirdProgram.exe
