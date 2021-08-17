@@ -1,5 +1,6 @@
 #include <sstream>
 #include "SplashState.h"
+#include "MainMenuState.h"
 #include "DEFINITIONS.h"
 
 #include <iostream>
@@ -35,7 +36,7 @@ namespace ljdiscovery
 	{
 		if (_clock.getElapsedTime().asSeconds() > SPLASH_STATE_SHOW_TIME)
 		{
-			std::cout << "Go To Main Menu" << std::endl;
+			_data->machine.AddState(StateRef(new MainMenuState(_data)), true);
 		}
 	}
 

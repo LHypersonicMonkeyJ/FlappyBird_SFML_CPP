@@ -19,6 +19,9 @@
     <ClCompile Include="SplashState.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssetManager.h">
@@ -40,6 +43,9 @@
       <Filter>source</Filter>
     </ClInclude>
     <ClInclude Include="SplashState.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
       <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
