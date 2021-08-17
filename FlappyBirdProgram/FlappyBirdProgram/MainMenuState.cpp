@@ -39,7 +39,7 @@ namespace ljdiscovery
 
 			if (_data->input.IsSpriteClicked(_playButton, sf::Mouse::Left, _data->window))
 			{
-				std::cout << "Go To Game Screen" << std::endl;
+				std::cout << "Go To Game Screen Now" << std::endl;
 			}
 
 		}
