@@ -22,6 +22,7 @@
     <ClCompile Include="MainMenuState.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="GameState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssetManager.h">
@@ -48,6 +49,7 @@
     <ClInclude Include="MainMenuState.h">
       <Filter>source</Filter>
     </ClInclude>
+    <ClInclude Include="GameState.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="source">

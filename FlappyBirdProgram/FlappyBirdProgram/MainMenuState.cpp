@@ -1,5 +1,6 @@
 #include <sstream>
 #include "MainMenuState.h"
+#include "GameState.h"
 #include "DEFINITIONS.h"
 
 #include <iostream>
@@ -39,7 +40,7 @@ namespace ljdiscovery
 
 			if (_data->input.IsSpriteClicked(_playButton, sf::Mouse::Left, _data->window))
 			{
-				std::cout << "Go To Game Screen Now" << std::endl;
+				_data->machine.AddState(StateRef(new GameState(_data)), true);
 			}
 
 		}
