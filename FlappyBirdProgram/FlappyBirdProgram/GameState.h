@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "State.h"
 #include "Game.h"
+#include "Pipe.h"
 
 namespace ljdiscovery
 {
@@ -21,5 +22,7 @@ namespace ljdiscovery
 		GameDataRef _data;
 
 		sf::Sprite _background;
+
+		Pipe *pipe;
 	};
 }

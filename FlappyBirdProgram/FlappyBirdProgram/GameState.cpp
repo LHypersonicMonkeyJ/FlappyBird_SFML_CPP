@@ -15,6 +15,11 @@ namespace ljdiscovery
 	void GameState::Init()
 	{
 		_data->assets.LoadTexture("Game Background", GAME_BACKGROUND_FILEPATH);
+		_data->assets.LoadTexture("Pipe Up", PIPE_UP_FILEPATH);
+		_data->assets.LoadTexture("Pipe Down", PIPE_DOWN_FILEPATH);
+
+		pipe = new Pipe(_data);
+
 
 		_background.setTexture(this->_data->assets.GetTexture("Game Background"));
 	}
@@ -29,12 +34,19 @@ namespace ljdiscovery
 			{
 				_data->window.close();
 			}
+
+			if (_data->input.IsSpriteClicked(_background, sf::Mouse::Left, _data->window))
+			{
+				pipe->SpawnInvisiblePipe();
+				pipe->SpawnBottomPipe();
+				pipe->SpawnTopPipe();
+			}
 		}
 	}
 
 	void GameState::Update(float dt)
 	{
-
+		pipe->MovePipes(dt);
 	}
 
 	void GameState::Draw(float dt)
@@ -42,6 +54,7 @@ namespace ljdiscovery
 		_data->window.clear();
 
 		_data->window.draw(_background);
+		pipe->DrawPipes();
 
 		_data->window.display();
 	}
